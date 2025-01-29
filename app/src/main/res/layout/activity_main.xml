@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_rowWeight="6"
+    android:layout_columnWeight="5"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        android:gravity="center_vertical"
+        android:paddingStart="20dp"
+        android:layout_margin="1dp"
+        android:layout_row="0"
+        android:layout_rowSpan="1"
+        android:layout_columnSpan="5"
+        android:layout_columnWeight="5"/>
+
+    <TextView
+        android:tag="C"
+        style="@style/AppTheme.BotonCalculadora"
+        android:layout_gravity="fill_horizontal"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:text="C"
+        android:background="@color/orange"/>
+
+    <TextView
+        android:tag="borrar"
+        android:layout_row="1"
+        android:layout_rowSpan="1"
+        android:layout_column="2"
+        android:layout_columnSpan="1"
+        android:layout_columnWeight="1"
+        android:drawableStart="@drawable/baseline_backspace_24"
+        style="@style/AppTheme.BotonCalculadora.BotonNaranja"/>
+
+    <TextView
+        android:tag="divicion"
+        android:layout_row="1"
+        android:layout_column="4"
+        android:layout_rowSpan="1"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="2"
+        android:text="÷"
+        style="@style/AppTheme.BotonCalculadora.BotonNaranja"
+        />
+
+
+
+    <TextView
+        android:tag="7"
+        android:layout_row="2"
+        android:layout_rowSpan="1"
+        android:layout_column="0"
+        android:layout_columnSpan="1"
+        android:layout_columnWeight="1"
+        android:text="7"
+        style="@style/AppTheme.BotonCalculadora.BotonAzul"
+        />
+    <TextView
+        android:tag="8"
+        android:layout_row="2"
+        android:layout_rowSpan="1"
+        android:layout_column="1"
+        android:layout_columnSpan="1"
+        android:layout_columnWeight="1"
+        android:text="8"
+        style="@style/AppTheme.BotonCalculadora.BotonAzul"
+        />
+
+    <TextView
+        android:tag="9"
+        android:layout_row="2"
+        android:layout_rowSpan="1"
+        android:layout_column="2"
+        android:layout_columnSpan="1"
+        android:layout_columnWeight="1"
+        android:text="9"
+        style="@style/AppTheme.BotonCalculadora.BotonAzul"
+        />
+
+    <TextView
+        android:tag="multiplicacion"
+        android:layout_row="2"
+        android:layout_rowSpan="1"
+        android:layout_column="3"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="2"
+        android:text="X"
+        style="@style/AppTheme.BotonCalculadora.BotonNaranja"
+        />
+
+
+
+
+    <TextView
+        android:tag="4"
+        android:layout_row="3"
+        android:layout_rowSpan="1"
+        android:layout_column="0"
+        android:layout_columnSpan="1"
+        android:layout_columnWeight="1"
+        android:text="4"
+        style="@style/AppTheme.BotonCalculadora.BotonAzul"
+        />
+
+    <TextView
+        android:tag="5"
+        android:layout_row="3"
+        android:layout_rowSpan="1"
+        android:layout_column="1"
+        android:layout_columnSpan="1"
+        android:layout_columnWeight="1"
+        android:text="5"
+        style="@style/AppTheme.BotonCalculadora.BotonAzul"
+        />
+
+    <TextView
+        android:tag="6"
+        android:layout_row="3"
+        android:layout_rowSpan="1"
+        android:layout_column="2"
+        android:layout_columnSpan="1"
+        android:layout_columnWeight="1"
+        android:text="6"
+        style="@style/AppTheme.BotonCalculadora.BotonAzul"
+        />
+
+    <TextView
+        android:tag="resta"
+        android:layout_row="3"
+        android:layout_rowSpan="1"
+        android:layout_column="3"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="2"
+        android:text="-"
+        style="@style/AppTheme.BotonCalculadora.BotonNaranja"
+        />
+
+
+
+    <TextView
+        android:tag="1"
+        android:layout_row="4"
+        android:layout_rowSpan="1"
+        android:layout_column="0"
+        android:layout_columnSpan="1"
+        android:layout_columnWeight="1"
+        android:text="1"
+        style="@style/AppTheme.BotonCalculadora.BotonAzul"
+        />
+
+    <TextView
+        android:tag="2"
+        android:layout_row="4"
+        android:layout_rowSpan="1"
+        android:layout_column="1"
+        android:layout_columnSpan="1"
+        android:layout_columnWeight="1"
+        android:text="2"
+        style="@style/AppTheme.BotonCalculadora.BotonAzul"
+        />
+
+    <TextView
+        android:tag="3"
+        android:layout_row="4"
+        android:layout_rowSpan="1"
+        android:layout_column="2"
+        android:layout_columnSpan="1"
+        android:layout_columnWeight="1"
+        android:text="3"
+        style="@style/AppTheme.BotonCalculadora.BotonAzul"
+        />
+
+    <TextView
+        android:tag="suma"
+        android:layout_row="4"
+        android:layout_rowSpan="2"
+        android:layout_rowWeight="2"
+        android:layout_column="3"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="2"
+        android:text="+"
+        style="@style/AppTheme.BotonCalculadora.BotonNaranja"/>
+
+    <TextView
+        android:tag="coma"
+        android:layout_row="5"
+        android:layout_rowSpan="1"
+        android:layout_column="0"
+        android:layout_columnSpan="1"
+        android:layout_columnWeight="1"
+        android:text="."
+        style="@style/AppTheme.BotonCalculadora.BotonAzul"
+        />
+
+    <TextView
+        android:tag="0"
+        android:layout_row="5"
+        android:layout_rowSpan="1"
+        android:layout_column="1"
+        android:layout_columnSpan="1"
+        android:layout_columnWeight="1"
+        android:text="0"
+        style="@style/AppTheme.BotonCalculadora.BotonAzul"
+        />
+
+    <TextView
+        android:tag="igual"
+        android:layout_row="5"
+        android:layout_rowSpan="1"
+        android:layout_column="2"
+        android:layout_columnSpan="1"
+        android:layout_columnWeight="1"
+        android:text="="
+        style="@style/AppTheme.BotonCalculadora.BotonAzul"
+        />
+
+</GridLayout>
